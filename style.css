@@ -81,3 +81,84 @@ h3 {
 .plans li { margin: 0 0 1.25rem; padding-left: 0.25rem; }
 
 .plans li::marker { color: var(--brass); font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
+
+/* Home page */
+
+.hero { margin-bottom: 1rem; }
+
+.hero h1 { font-size: 2.4rem; }
+
+.cta {
+  display: inline-block;
+  min-height: 44px;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  background: var(--brass);
+  color: var(--night);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta:hover { background: var(--parchment); }
+
+.note { color: var(--parchment-dim); font-size: 0.95rem; }
+
+section { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+
+section h2 { margin-top: 0; font-size: 1.35rem; }
+
+.label {
+  margin: 0 0 0.25rem;
+  color: var(--brass);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.signup {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.signup label { display: block; margin-bottom: 0.6rem; font-weight: 600; }
+
+.signup-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+
+.signup input {
+  flex: 1 1 14rem;
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--night);
+  color: var(--parchment);
+  font: inherit;
+}
+
+.signup input::placeholder { color: var(--parchment-dim); opacity: 0.7; }
+
+.signup button {
+  min-height: 44px;
+  padding: 0.6rem 1.4rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--brass);
+  color: var(--night);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup button:hover { background: var(--parchment); }
+
+.signup input:focus-visible, .signup button:focus-visible, .cta:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+.signup .note { margin: 0.8rem 0 0; }
