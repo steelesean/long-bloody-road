@@ -216,3 +216,13 @@ section h2 { margin-top: 0; font-size: 1.35rem; }
 .art.wide { aspect-ratio: 16 / 9; object-position: 50% 62%; }
 
 .art.men { aspect-ratio: 4 / 5; object-position: 50% 60%; }
+
+.art.lane { aspect-ratio: 1 / 1; object-position: 50% 24%; }
+
+a > .art { transition: opacity 0.15s; }
+
+a:hover > .art, a:focus-visible > .art { opacity: 0.88; }
+
+.raids + p { margin-top: 1.25rem; }
+
+.follow { margin-top: 0.9rem; }
