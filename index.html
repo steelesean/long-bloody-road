@@ -4,47 +4,90 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Long Bloody Road: a WW2 tactics game for iPhone and iPad</title>
-<meta name="description" content="Long Bloody Road is a WW2 tactics game for iPhone and iPad. Lead the same men through Normandy, 1944. The first two missions are free.">
+<meta name="description" content="Long Bloody Road is a WW2 tactics game for iPhone and iPad. Real battles, named men, and one job: bring them home. The first two missions are free.">
 <meta name="apple-itunes-app" content="app-id=6830581386">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Long Bloody Road">
-<meta property="og:description" content="A WW2 tactics game for iPhone and iPad. Lead the same men through Normandy, 1944. The first two missions are free.">
+<meta property="og:image" content="https://longbloodyroad.com/art/normandy-lane-dusk.webp">
+<meta property="og:description" content="WW2 tactics for iPhone and iPad. Real battles. Named men. Bring them home. The first two missions are free.">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="campaign">
 <main>
   <header class="hero">
     <h1>Long Bloody Road</h1>
-    <p class="lede">A WW2 tactics game for iPhone and iPad. You lead a handful of men through the war on the ground, one campaign at a time, and the men you bring through one mission are the men you take into the next.</p>
+    <p class="standfirst">WW2 tactics for iPhone and iPad. Real battles. Named men. Bring them home.</p>
     <p><a class="cta" href="https://apps.apple.com/app/id6830581386">Download on the App Store</a></p>
     <p class="note">The first two missions are free.</p>
   </header>
 
+  <img class="art lane" src="art/normandy-lane-dawn.webp" width="704" height="1520" alt="Painting of American soldiers walking up a sunken Normandy lane at dawn towards a Sherman tank.">
+
+  <section aria-labelledby="men">
+    <p class="label">The game</p>
+    <h2 id="men">Every man has a name</h2>
+    <p>You lead a handful of men through the war, one campaign at a time. The men you bring through one mission are the men you take into the next. Lose one, and he stays lost.</p>
+    <p>No loot. No timers. No upgrades to buy. Your men get better one way: by surviving.</p>
+  </section>
+
   <section aria-labelledby="normandy">
     <p class="label">Out now</p>
-    <h2 id="normandy">Normandy, June and July 1944</h2>
-    <p>Four missions in the hedgerows, from Carentan to Operation Cobra. Play the first two free, then buy the rest of the campaign if you want to see it through.</p>
+    <h2 id="normandy">Normandy, 1944</h2>
+    <p>The beaches are behind you. Ahead is the bocage: sunken lanes, high hedgerows, and a German gun behind every one.</p>
+    <img class="art" src="art/normandy-lane-dusk.webp" width="1408" height="768" loading="lazy" alt="Painting of four American soldiers walking down a hedgerow lane at dusk, with a Sherman tank and fires behind them.">
+    <ul class="raids">
+      <li>
+        <span class="when">June 1944 · Free</span>
+        <h3>Hedgerows near Carentan</h3>
+        <p>Take the farm and the crossroads. Then hold them.</p>
+      </li>
+      <li>
+        <span class="when">13 June 1944 · Free</span>
+        <h3>Bloody Gulch</h3>
+        <p>The counter-attack comes for Carentan. You are in its way.</p>
+      </li>
+      <li>
+        <span class="when">11 July 1944</span>
+        <h3>Hill 192</h3>
+        <p>Fight up through the hedges to the crest, and stay there.</p>
+      </li>
+      <li>
+        <span class="when">25 July 1944</span>
+        <h3>Operation Cobra</h3>
+        <p>The bombers go in first. Then the breakout, and the Panthers.</p>
+      </li>
+    </ul>
+    <p><a class="cta" href="https://apps.apple.com/app/id6830581386">Play the first two free</a></p>
+  </section>
+
+  <section aria-labelledby="enemy">
+    <p class="label">The enemy</p>
+    <h2 id="enemy">A battle that fights back</h2>
+    <img class="art" src="art/normandy-battlefield.webp" width="1408" height="768" loading="lazy" alt="A Normandy battlefield seen from above: a farm, a burnt-out barn, hedgerows, a crossroads and a tank on the road.">
+    <p>A German commander plans every battle, and his plan changes from one to the next. Where the machine gun sits, when the counter-attack comes, whether there is armour: you find out the hard way.</p>
+    <p>Your intelligence is a best guess, and some of it is wrong. When it is over, the debrief shows you the plan you were up against.</p>
   </section>
 
   <section aria-labelledby="africa">
-    <p class="label">Coming next</p>
-    <h2 id="africa">Africa's Dust: North Africa, 1941 to 1942</h2>
-    <p>With the first men of the SAS. Cross the desert by night, raid enemy airfields far behind the lines, and get out again before dawn. <a href="africas-dust.html">Read about the campaign</a>.</p>
+    <p class="label">Coming December 2026</p>
+    <h2 id="africa">Africa's Dust</h2>
+    <a href="africas-dust.html"><img class="art wide" src="art/night-raid.webp" width="1024" height="1024" loading="lazy" alt="Painting of two jeeps with mounted machine guns driving away from burning aircraft on a desert airfield at night."></a>
+    <p>North Africa, 1941. A handful of men drive out of the desert at night, destroy an airfield, and are gone by dawn. The first SAS raids, and you are in command. <a href="africas-dust.html">See the campaign</a>.</p>
 
     <form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/longbloodyroad" method="post">
-      <label for="email">Hear when Africa's Dust is out</label>
+      <label for="email">Hear the day it's out</label>
       <div class="signup-row">
         <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
         <button type="submit">Tell me</button>
       </div>
-      <p class="note">One email for each new campaign, and nothing else. Unsubscribe whenever you like. <a href="privacy.html">Privacy</a>.</p>
+      <p class="note">One email per campaign. Nothing else. <a href="privacy.html">Privacy</a>.</p>
     </form>
   </section>
 
   <section aria-labelledby="after">
     <p class="label">After that</p>
     <h2 id="after">The road goes on</h2>
-    <p>Commando raids on the French coast, Pegasus Bridge, Holland and Bastogne are all planned. <a href="roadmap.html">See what's next</a>.</p>
+    <p>Commando raids on the French coast. Pegasus Bridge. Holland. Bastogne. <a href="roadmap.html">See what's planned</a>.</p>
   </section>
 
   <footer>
