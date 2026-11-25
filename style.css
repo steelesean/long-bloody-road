@@ -217,6 +217,8 @@ section h2 { margin-top: 0; font-size: 1.35rem; }
 
 .art.men { aspect-ratio: 4 / 5; object-position: 50% 60%; }
 
+.art.bridge { aspect-ratio: 3 / 4; object-position: 50% 30%; }
+
 .art.lane { aspect-ratio: 1 / 1; object-position: 50% 24%; }
 
 a > .art { transition: opacity 0.15s; }
